@@ -8,8 +8,7 @@ poke_id = input('>> ')
 
 # バリデーションチェック
 while True:
-    # 範囲は1〜905 (2022/10現在)
-    judge = 0 <= int(poke_id) < 906
+    judge = 0 <= int(poke_id) < 1025
 
     if not judge:
         # 存在しないIDを記述したら、再入力を求める
